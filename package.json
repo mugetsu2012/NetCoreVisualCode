@@ -1,0 +1,23 @@
+{
+  "name": "netcorevisualcode",
+  "version": "1.0.0",
+  "description": "App PartyInvites",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mugetsu2012/NetCoreVisualCode.git"
+  },
+  "author": "douglas ortiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mugetsu2012/NetCoreVisualCode/issues"
+  },
+  "homepage": "https://github.com/mugetsu2012/NetCoreVisualCode#readme",
+  "devDependencies": {
+    "bootstrap": "4.0.0-alpha.6"
+  }
+}
