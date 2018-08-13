@@ -1,15 +1,25 @@
 {
-    "version": "2.0.0",
+    "version": "0.1.0",
+    "command": "gulp",
+    "isShellCommand": true,
+    "args": [
+        "--no-color"
+    ],
     "tasks": [
-        {
-            "label": "build",
-            "command": "dotnet",
-            "type": "process",
-            "args": [
-                "build",
-                "${workspaceFolder}/NetCoreVisualCode.csproj"
-            ],
-            "problemMatcher": "$msCompile"
-        }
-    ]
+		{
+			"taskName": "clean",
+			"isBuildCommand": true,
+			"showOutput": "always"
+		},
+		{
+			"taskName": "scripts",
+			"isBuildCommand": true,
+			"showOutput": "always"
+		},
+		{
+			"taskName": "minify",
+			"isBuildCommand": true,
+			"showOutput": "always"
+		}
+	]
 }
